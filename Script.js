@@ -1,0 +1,9 @@
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Document is ready!');
+    
+    // Example function to change header color on click
+    document.querySelector('header').addEventListener('click', function() {
+        this.style.backgroundColor = '#555';
+    });
+});
